@@ -3,7 +3,7 @@
 # FILENAME: search_engine.py
 # SPECIFICATION: Calculate tf-idf, return doc >=0.1, and calculate precision and recall
 # FOR: CS 4250- Assignment #1
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 3 hours
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with standard arrays
