@@ -125,7 +125,7 @@ doc2_score = docScore(doc2_tfidf)
 doc3_score = docScore(doc3_tfidf)
 
 doc_score = {1:doc1_score,2:doc2_score,3:doc3_score}
-print(doc_score)
+#print(doc_score)
 
 #user query
 user_query = "cat and dog"
