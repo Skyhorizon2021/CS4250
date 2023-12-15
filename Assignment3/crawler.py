@@ -37,10 +37,10 @@ def retrieveurl(url, baseurl='https://www.cpp.edu/sci/computer-science/'):
         furl = urllib.parse.urljoin(baseurl, url)
         with urllib.request.urlopen(furl) as response:
             html = response.read()
-            print("it worked")
+            print("Retrieved!")
         return html
     except:
-        print("it didnt work")
+        print("Error. Not retrieved!")
 
 def storepage(url, html):
     if html:
