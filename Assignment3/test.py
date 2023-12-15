@@ -41,4 +41,12 @@ bs = BeautifulSoup('''<html>
 </body>
 </html>''','html.parser')
 print(bs.title.get_text())
-print(bs.find_all('h2',string=re.compile("tutorial")))
+for text in bs.find_all('h2',string=re.compile("tutorial")):
+    print(text.get_text())
+print(bs.find('tr',{'class':'tutorial2'}).get_text())
+#print(bs.find('tr',{'class':"tutorial"}).get_text())
+# for text in bs.find_all('',string=re.compile("HTML")):
+#     print(text.get_text())
+#print(bs.find('tr',{'class':'tutorial1'}).get_text())
+for image in bs.find('table').find_all('img'):
+    print(image['src'])
